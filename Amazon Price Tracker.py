@@ -19,7 +19,7 @@ def sendMail(p):
     server.ehlo() # establishes connection between email servers
     server.starttls() # for encryption
     server.ehlo()
-    server.login('bluecoder1206@gmail.com','ussdfsquceqyujmk')
+    server.login('bluecoder1206@gmail.com','###')
     subject="Logitech G402 Mouse"
     body="Check Amazon now!!! \n Price is"+str(p)+"\n https://www.amazon.in/Logitech-Lightspeed-Wireless-Gaming-Mouse/dp/B07G98H6PM/ref=psdc_1375415031_t2_B019OB663A"
     message=f"Subject: {subject}\n\n{body}"
